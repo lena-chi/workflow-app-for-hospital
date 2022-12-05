@@ -1,0 +1,22 @@
+{
+  "name": "step_project_cards",
+  "version": "1.0.0",
+  "description": "service application",
+  "main": "./scripts/index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/rustammio/step_project_cards.git"
+  },
+  "keywords": [
+    "run"
+  ],
+  "author": "{Rustam Rustamov <rustam.r.r.r.r@gmail.com> (https://gitlab.com/rustammio) Olena Chizhevska <@OlenaChi> Tetiana  <@t.yatskova> (tetiana.yatskova@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/rustammio/step_project_cards/issues"
+  },
+  "homepage": "https://gitlab.com/rustammio/step_project_cards#readme"
+}

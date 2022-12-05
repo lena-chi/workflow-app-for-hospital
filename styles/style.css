@@ -1,0 +1,284 @@
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.2;
+}
+
+.container-md {
+    max-width: 1200px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.navbar-brand {
+    color: white;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+}
+
+.navbar-brand:hover {
+    color: #441c1c;
+}
+
+.bg {
+    background: linear-gradient(#000000, #9198e500);
+}
+
+.modal-content {
+    background-color: black;
+    background: linear-gradient(#441c1c, #000000);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.594);
+}
+
+.btn {
+    font-size: 13px;
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-footer {
+    border: none;
+}
+
+.select_form{
+    margin-bottom: 15px;
+}
+
+.center {
+    padding: 10vh 0;
+}
+
+
+.card {
+    background-color: black;
+    background: linear-gradient(#4b2727a9, #222daa00);
+    color: #fff;
+    --bs-card-border-color: none;
+}
+
+
+.forms {
+    margin-top: 50px;
+}
+
+.form-floating>.form-control-plaintext::placeholder,
+.form-floating>.form-control::placeholder {
+    color: rgb(205, 204, 204);
+}
+
+
+.form-floating>.form-select {
+    padding-top: 9px;
+
+}
+
+
+.form-control {
+    padding-top: 0;
+    background-color: #0000005f;
+    border-color: rgb(117, 117, 117);
+    color: white;
+
+}
+
+.form-floating>.form-control:focus {
+    background-color: #0000005f;
+    color: white;
+    padding-top: 9px;
+}
+
+.form-select {
+    padding-right: 25px;
+    background-color: #0000005f;
+    border-color: rgb(117, 117, 117);
+    color: rgb(205, 204, 204)
+}
+
+/*input:invalid:required{*/
+
+/*    border: 3px solid white;*/
+/*}*/
+
+#floatingSelectGrid {
+
+    height: 40px;
+}
+
+#floatingInputGrid {
+
+    height: 40px;
+}
+
+
+.s {
+    height: 40px;
+    /*max-width: 80%;*/
+    /*z-index: 1000;*/
+    margin: 12px 10px;
+    /*display: block;*/
+}
+.search,
+.reset {
+    cursor: pointer;
+    position: relative;
+}
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> 0736e64cc6b606515d0923e305310463d0a10cf9
+
+.search-zone {
+    margin-top: 5vh;
+}
+.defText {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.alert {
+    width: 100%;
+    background-color: transparent;
+    color: pink;
+    text-align: center;
+}
+
+.tryAgain {
+    width: 100%;
+    background-color: transparent;
+    color: pink;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tryAgain:hover {
+    color: red;
+}
+
+
+/*try anim*/
+
+.container {
+    width: 100%;
+    margin: auto;
+    font-weight: 900;
+    text-align: center;
+    padding: 0 0 200px;
+}
+
+.animate {
+    font-size: 25px;
+    margin: 100px 0 0;
+
+}
+
+.animate span {
+    display: inline-block;
+}
+
+.animate span:nth-of-type(2) {
+    animation-delay: .05s;
+}
+.animate span:nth-of-type(3) {
+    animation-delay: .1s;
+}
+.animate span:nth-of-type(4) {
+    animation-delay: .15s;
+}
+.animate span:nth-of-type(5) {
+    animation-delay: .2s;
+}
+.animate span:nth-of-type(6) {
+    animation-delay: .25s;
+}
+.animate span:nth-of-type(7) {
+    animation-delay: .3s;
+}
+.animate span:nth-of-type(8) {
+    animation-delay: .35s;
+}
+.animate span:nth-of-type(9) {
+    animation-delay: .4s;
+}
+.animate span:nth-of-type(10) {
+    animation-delay: .45s;
+}
+.animate span:nth-of-type(11) {
+    animation-delay: .5s;
+}
+.animate span:nth-of-type(12) {
+    animation-delay: .55s;
+}
+.animate span:nth-of-type(13) {
+    animation-delay: .6s;
+}
+.animate span:nth-of-type(14) {
+    animation-delay: .65s;
+}
+.animate span:nth-of-type(15) {
+    animation-delay: .7s;
+}
+.animate span:nth-of-type(16) {
+    animation-delay: .75s;
+}
+.animate span:nth-of-type(17) {
+    animation-delay: .8s;
+}
+.animate span:nth-of-type(18) {
+    animation-delay: .85s;
+}
+.animate span:nth-of-type(19) {
+    animation-delay: .9s;
+}
+.animate span:nth-of-type(20) {
+    animation-delay: .95s;
+}
+
+.one span {
+    color: rgba(255, 255, 255, 0.82);
+    opacity: 0;
+    transform: translate(-150px, -50px) rotate(-180deg) scale(3);
+    animation: revolveScale .4s forwards;
+}
+
+@keyframes revolveScale {
+    60% {
+        transform: translate(20px, 20px) rotate(30deg) scale(.3);
+    }
+
+    100% {
+        transform: translate(0) rotate(0) scale(1);
+        opacity: 1;
+    }
+}
+
+.div-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card-body {
+    position: relative;
+}
+.btn-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
